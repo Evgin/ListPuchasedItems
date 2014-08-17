@@ -1,5 +1,7 @@
 package net.mobidom.warbotsonline;
 
+import com.android.vending.billing.IInAppBillingService;
+
 import android.app.Activity;
 import android.app.ActionBar;
 import android.app.Fragment;
@@ -13,6 +15,8 @@ import android.os.Build;
 
 public class MainActivity extends Activity {
 
+	IInAppBillingService inappBillingService;
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
