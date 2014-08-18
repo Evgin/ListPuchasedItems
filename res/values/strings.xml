@@ -3,6 +3,8 @@
 
     <string name="app_name">ListPurchasedItems</string>
     <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+    <string name="products">products</string>
+    <string name="purchases">purchases</string>
+    <string name="buy_chips10">buy chips10 and not consume</string>
 
 </resources>
